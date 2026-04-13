@@ -27,7 +27,7 @@ Projekt obejmuje kompletny system mechatroniczny integrujący:
 ## 📄 Pełna dokumentacja
 
 <p align="center">
-  <a href="docs/praca_inzynierska.pdf">
+  <a href="praca_inzynierska.pdf">
     <img src="https://img.shields.io/badge/📄_Zobacz_pracę_inżynierską-blue?style=for-the-badge&logo=adobeacrobatreader" />
   </a>
 </p>
