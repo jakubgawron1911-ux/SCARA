@@ -1,4 +1,7 @@
-<p align="center"> <img src="demo.png" alt="SCARA Robot" width="1000"/> </p>
+<p align="center"> 
+  <img src="demo.png" alt="SCARA Robot" width="1000"/> 
+</p>
+
 # 🤖 SCARA Robot – Embedded System
 
 System wbudowany dla robota typu SCARA zaprojektowany i zaimplementowany w ramach pracy inżynierskiej.
@@ -16,6 +19,16 @@ Projekt obejmuje kompletny system mechatroniczny integrujący:
 <p align="center">
   <a href="https://www.youtube.com/watch?v=6avzCS4PHWA">
     <img src="https://img.shields.io/badge/▶️_Zobacz_demo_na_YouTube-red?style=for-the-badge&logo=youtube" />
+  </a>
+</p>
+
+---
+
+## 📄 Pełna dokumentacja
+
+<p align="center">
+  <a href="docs/praca_inzynierska.pdf">
+    <img src="https://img.shields.io/badge/📄_Zobacz_pracę_inżynierską-blue?style=for-the-badge&logo=adobeacrobatreader" />
   </a>
 </p>
 
