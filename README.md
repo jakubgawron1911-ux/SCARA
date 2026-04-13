@@ -172,10 +172,4 @@ Robot został wykonany z użyciem:
 
 **Jakub Gawron**  
 Kierunek: Automatyka i Robotyka  
-Rok: 2026  
-
----
-
-## 📄 Licencja
-
-Projekt edukacyjny – do wykorzystania w celach naukowych i rozwojowych.
+Rok: 2026
