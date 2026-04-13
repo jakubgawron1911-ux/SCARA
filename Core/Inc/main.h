@@ -1,0 +1,112 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.h
+  * @brief          : Header for main.c file.
+  *                   This file contains the common defines of the application.
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2025 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef __MAIN_H
+#define __MAIN_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm32f0xx_hal.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+
+/* USER CODE END Includes */
+
+/* Exported types ------------------------------------------------------------*/
+/* USER CODE BEGIN ET */
+
+/* USER CODE END ET */
+
+/* Exported constants --------------------------------------------------------*/
+/* USER CODE BEGIN EC */
+
+/* USER CODE END EC */
+
+/* Exported macro ------------------------------------------------------------*/
+/* USER CODE BEGIN EM */
+
+/* USER CODE END EM */
+
+/* Exported functions prototypes ---------------------------------------------*/
+void Error_Handler(void);
+
+/* USER CODE BEGIN EFP */
+
+/* USER CODE END EFP */
+
+/* Private defines -----------------------------------------------------------*/
+#define SAFETY_Pin GPIO_PIN_13
+#define SAFETY_GPIO_Port GPIOC
+#define SAFETY_EXTI_IRQn EXTI4_15_IRQn
+#define U3_MS1_Pin GPIO_PIN_0
+#define U3_MS1_GPIO_Port GPIOC
+#define U3_EN_Pin GPIO_PIN_1
+#define U3_EN_GPIO_Port GPIOC
+#define U3_DIR_Pin GPIO_PIN_2
+#define U3_DIR_GPIO_Port GPIOC
+#define U3_MS2_Pin GPIO_PIN_3
+#define U3_MS2_GPIO_Port GPIOC
+#define U3_VREF_Pin GPIO_PIN_4
+#define U3_VREF_GPIO_Port GPIOA
+#define U2_STEP_Pin GPIO_PIN_6
+#define U2_STEP_GPIO_Port GPIOA
+#define U1_STEP_Pin GPIO_PIN_7
+#define U1_STEP_GPIO_Port GPIOA
+#define RPI_RX_Pin GPIO_PIN_4
+#define RPI_RX_GPIO_Port GPIOC
+#define U2_MS1_Pin GPIO_PIN_5
+#define U2_MS1_GPIO_Port GPIOC
+#define U3_STEP_Pin GPIO_PIN_0
+#define U3_STEP_GPIO_Port GPIOB
+#define RPI_TX_Pin GPIO_PIN_11
+#define RPI_TX_GPIO_Port GPIOB
+#define U2_EN_Pin GPIO_PIN_6
+#define U2_EN_GPIO_Port GPIOC
+#define DRV_ENABLE_Pin GPIO_PIN_10
+#define DRV_ENABLE_GPIO_Port GPIOA
+#define U2_DIR_Pin GPIO_PIN_11
+#define U2_DIR_GPIO_Port GPIOA
+#define U2_MS2_Pin GPIO_PIN_12
+#define U2_MS2_GPIO_Port GPIOA
+#define U1_MS1_Pin GPIO_PIN_10
+#define U1_MS1_GPIO_Port GPIOC
+#define U1_MS2_Pin GPIO_PIN_11
+#define U1_MS2_GPIO_Port GPIOC
+#define U1_EN_Pin GPIO_PIN_12
+#define U1_EN_GPIO_Port GPIOC
+#define DRV_PHASE_Pin GPIO_PIN_3
+#define DRV_PHASE_GPIO_Port GPIOB
+#define U1_DIR_Pin GPIO_PIN_7
+#define U1_DIR_GPIO_Port GPIOB
+
+/* USER CODE BEGIN Private defines */
+
+/* USER CODE END Private defines */
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* __MAIN_H */
