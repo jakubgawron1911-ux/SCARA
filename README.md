@@ -1,4 +1,4 @@
-<p align="center"> <img src="demo.png" alt="SCARA Robot" width="500"/> </p>
+<p align="center"> <img src="demo.png" alt="SCARA Robot" width="1000"/> </p>
 # 🤖 SCARA Robot – Embedded System
 
 System wbudowany dla robota typu SCARA zaprojektowany i zaimplementowany w ramach pracy inżynierskiej.
